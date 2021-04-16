@@ -1,0 +1,79 @@
+.popular {
+    padding: 3rem 2rem;
+}
+
+.popular__content {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: content;
+    padding: 1rem 0;
+}
+
+.popular__card {
+    display: grid;
+    grid-template-areas: 
+       "card-image"
+       "card-body";
+    margin-right: 1rem;
+    width: calc(20% - 1rem);
+    grid-template-columns: 100%;
+    grid-template-rows: 173px auto;
+}
+
+.popular__card:last-child {
+    margin-right: 0;
+}
+
+.popular__card___image {
+    grid-area: card-image;
+    height: 100%;
+    width: 100%;
+}
+
+.popular__card___body {
+    display: grid;
+    grid-area: card-body;
+    grid-row-gap: .5rem;
+    grid-template-areas: 
+        "card-header"
+        "card-content";
+    grid-template-rows: 50px auto;
+    padding: .75rem;
+}
+
+.popular__card___title {
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.popular__card___date {
+    font-size: .9rem;
+    color: #808080;
+}
+
+.popular__card___description {
+    color: #333333;
+    line-height: 1.5;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.popular__title {
+    font-weight: 500;
+}
+
+.popular__icon {
+    margin-right: .25rem;
+}
+
+.popular__header {
+    border-bottom: 1px solid #bcbcbc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular__button {
+    background: transparent;
+    border: none;
+    color: #333333;
+}

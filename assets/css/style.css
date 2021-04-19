@@ -9,15 +9,22 @@
 }
 
 .header {
-    background: #00cc99;
+    align-items: center;
+    display: flex;
     grid-area: header;
+    padding: 0 2rem;
 }
  
 .content {
     grid-area: content;
+    padding: 0 2rem;
 }
 
 .footer {
-    background #0099ff;
+    background #fdfdfd;
+    color: #333333;
+    font-size: .8rem;
+    padding: 1rem;
     grid-area: footer;
+    text-align: center;
 }

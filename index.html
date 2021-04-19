@@ -10,9 +10,29 @@
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/highlights.css" rel="stylesheet">
     <link href="./assets/css/popular.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
+    <link href="./assets/css/responsive.css" rel="stylesheet">
 </head>
 <body class="app">
-    <header class="header">Header</header>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Apps</a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-gamepad"></i>
+                        Games
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main class="content">
         <section class="highlights">
             <div class="highlights__main box">
@@ -366,7 +386,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">Footer</footer>
+    <footer class="footer">All rights reserved &copy; 2021</footer>
     <script src="./assets/js/fontawesome.all.min.js"></script>
 </body>
 </html>
